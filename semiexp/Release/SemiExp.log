@@ -1,0 +1,18 @@
+﻿  SemiExp.cpp
+SemiExp.cpp(107): warning C4018: '>=': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\algorithm(1015): error C2664: 'int (int)': cannot convert argument 1 from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'int'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\algorithm(1015): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\algorithm(1027): note: see reference to function template instantiation '_OutIt std::_Transform<std::basic_string<char,std::char_traits<char>,std::allocator<char>>*,_OutIt,int(__cdecl *)(int)>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+          with
+          [
+              _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,
+              _InIt=std::basic_string<char,std::char_traits<char>,std::allocator<char>> *,
+              _Fn1=int (__cdecl *)(int)
+          ]
+  SemiExp.cpp(155): note: see reference to function template instantiation '_OutIt std::transform<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,int(__cdecl *)(int)>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+          with
+          [
+              _OutIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>>>,
+              _Fn1=int (__cdecl *)(int)
+          ]

@@ -1,0 +1,24 @@
+//---Demonstrating # symbol---
+#include <iostream>
+#include <algorithm>
+#include <string>
+
+//---Demonstrating public,private,protected---
+public:
+		SemiExp(Toker* pToker = nullptr);
+private:
+		std::string& operator[](int n);
+protected:
+		Toker();
+
+//--- Demonstrating for loop---
+for (auto token : _tokens)
+	{
+		if (token == "for") cnt++;
+		if (token == "(" && cnt == 1)cnt++;
+		if (token == ";" && cnt == 2)cnt++;
+		if (token == ";" && cnt == 3)cnt++;
+		if (token == ")" && cnt == 4)cnt++;
+	}
+
+for(;;);

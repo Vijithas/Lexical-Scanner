@@ -1,0 +1,27 @@
+//==========================Requirement 4 & 5==========================
+
+//---Demo Alphanum---
+#include "Tokenizer.h"
+#include <iostream>
+
+//---Demo Punctuators---
+.,;@$!&%^~
+
+//---Special Single Chars---
+(abc{def}ghi[jkl]mno{}[]()
+
+//---Special Char Pairs---
++= -= *= /= ++ --
+
+//---Demo C Comments---
+comment /*
+  This is a C style Comment!
+*/
+
+//---Demo C++ Comments---
+// This is a C++ Style Comment!
+
+//--- Quoted Strings---
+"this is a quoted \"string\" example"
+"this is another example"
+"\n this is another example"
